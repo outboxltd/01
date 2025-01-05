@@ -1,0 +1,30 @@
+/* עיצוב כללי */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+/* עיצוב לכפתור */
+#colorButton {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+#colorButton:hover {
+  background-color: #45a049;
+}
+
+#colorButton:active {
+  transform: scale(0.95);
+}
